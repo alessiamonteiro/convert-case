@@ -1,0 +1,113 @@
+body {
+  background-color: #0c2138;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  color: white;
+}
+
+.titulos {
+  color: #d1726b;
+}
+
+#buttons {
+  flex-direction: row;
+}
+textarea {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  width: 400px;
+  height: 200px;
+  justify-content: center;
+}
+
+.btn {
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 550;
+  margin: 5px;
+  margin-left: 10px;
+  width: 85px;
+  height: 50px;
+  background-color: #479e9d;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+}
+
+.btn:hover {
+  /*Como ele vai ficar ao passar o mouse, ou para o mouse encima*/
+  background-color: #516273;
+}
+
+.btn:focus {
+  /* aqui define a cor que o botão deve receber depois de clicar*/
+  background-color: #d15349;
+}
+
+.btncopy {
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 550;
+  margin: 5px;
+  margin-left: 10px;
+  width: 85px;
+  height: 50px;
+  background-color: #479e9d;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+}
+
+.btncopy:hover {
+  /*Como ele vai ficar ao passar o mouse, ou para o mouse encima*/
+  background-color: #516273;
+}
+
+header {
+  font-size: 60px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+#copy {
+  margin: 5px;
+  margin-left: 10px;
+  margin-top: 30px;
+  width: 70px;
+  height: 50px;
+  background-color: #008b8b;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+h4 {
+  font-size: 20px;
+  font-family: Helvetica, sans-serif;
+}
+
+#comentario {
+  margin: auto;
+  display: flex;
+  padding: 16px 0;
+  position: relative;
+}
+
+.p {
+  color: #ebc79e;
+  width: 230px;
+  height: fit-content;
+  box-shadow: 0 0 8px #aaa;
+  margin: auto 16px;
+  padding: 10px;
+  position: absolute;
+  left: 100%;
+  top: 30%;
+}
